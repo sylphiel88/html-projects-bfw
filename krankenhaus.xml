@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<krankenhaus>
+    <name>International Therapy</name>
+    
+    <patient>
+        <name>Kalubke, Paul</name>
+        <temperatur>42</temperatur>
+        <zimmer>25</zimmer>
+    </patient>
+    
+    <patient>
+        <name>Lovelace, Ada</name>
+        <temperatur>39</temperatur>
+        <zimmer>314</zimmer>
+    </patient>
+    
+    <patient>
+        <name>Touring, Alan</name>
+        <temperatur>40</temperatur>
+        <zimmer>11235</zimmer>
+    </patient>
+    
+    <patient>
+        <name>Tanenbaum, Andrew Stuart</name>
+        <temperatur>41</temperatur>
+        <zimmer>13914924</zimmer>
+    </patient>
+</krankenhaus>
