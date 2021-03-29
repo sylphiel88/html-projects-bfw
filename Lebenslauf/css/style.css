@@ -56,8 +56,8 @@ p {
 }
 
 .bewerbungsbild {
-    float: right;
-    margin-right: 40vh;
+    float:right;
+
 }
 
 .ortdatum {
@@ -88,4 +88,37 @@ p {
 
 .abitur {
     color:royalblue;
+}
+
+.tabelle1 {
+    display:grid;
+    grid-template-rows: 1.2em 1.2em 1.2em 1.2em 1.2em 1.2em 1.2em 1.2em;
+    grid-template-columns: 30vh 40vh;
+    margin-left: 25vh;
+    font-size: 1.2em;
+}
+.tabelle2 {
+    display:grid;
+    grid-template-rows: 1.2em 2.4em 1.2em 2.4em 1.2em 2.4em;
+    grid-template-columns: 30vh 40vh;
+    margin-left: 25vh;
+    font-size: 1.2em;
+}
+.tabelle3 {
+    display:grid;
+    grid-template-rows: 1.2em 2.4em 1.2em 2.4em;
+    grid-template-columns: 30vh 40vh;
+    margin-left: 25vh;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style-position: inside;
+    margin : 0;
+    padding : 0;
+}
+
+.bilddiv{
+    display:grid;
+    grid-template-columns: 70vh 30vh;
 }
