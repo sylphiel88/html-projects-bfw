@@ -5,5 +5,13 @@ h2 {
     color : green;
 }
 body {
-    background-color : grey;
+    background-color : rgb(179, 179, 179);
+}
+
+#absatz {
+    color : yellow;
+}
+
+#absatz {
+    color : orange;
 }
