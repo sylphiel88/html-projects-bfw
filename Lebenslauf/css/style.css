@@ -1,0 +1,91 @@
+.lebenslauf {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 20vh;
+}
+.name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 20vh;
+}
+
+.berufsbezeichnung {
+    font-size: 1.4em;
+    margin-left: 20vh;
+}
+
+.querlinie1 {
+    width: 68vh;
+    margin-left: 5vh;
+    height: 0.2em;
+    background-color: black;
+    border: none;
+}
+.linker {
+    text-decoration: underline;
+    color : rgb(243, 210, 64);
+}
+
+.spalte1 {
+    margin-left : 25vh;
+    font-size: 1.3em;
+}
+.spalte2 
+{
+    position:absolute;
+    left : 55vh;
+    font-size: 1.3em;
+}
+
+p {
+    margin: 0;
+}
+
+.querlinie2 {
+    width: 68vh;
+    margin-left: 20vh;
+    height: 0.2em;
+    background-color: black;
+    border: none;
+}
+.liste {
+    position:absolute;
+    font-size: 1.3em;
+    left: 55vh;
+    margin: -2.5vh;
+}
+
+.bewerbungsbild {
+    float: right;
+    margin-right: 40vh;
+}
+
+.ortdatum {
+    position:absolute;
+    left: 30vh;
+}
+
+.unterschrift {
+    position: absolute;
+    left: 60vh
+}
+
+.entwickler {
+    color: teal;
+}
+
+.admin {
+    color: violet;
+}
+
+.werkstudent {
+    color: wheat;
+}
+
+.studium {
+    color:tomato;
+}
+
+.abitur {
+    color:royalblue;
+}
