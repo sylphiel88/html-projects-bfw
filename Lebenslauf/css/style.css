@@ -57,9 +57,13 @@ p {
 
 .bewerbungsbild {
     float:right;
+    margin-right: 90vh;
 
 }
+.bewerbungsbild2 {
+    float:right;
 
+}
 .ortdatum {
     position:absolute;
     left: 30vh;
