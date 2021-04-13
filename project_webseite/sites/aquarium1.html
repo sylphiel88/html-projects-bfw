@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/materialize.min.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <title>Document</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper blue">
+                <div class="container">
+                    <a href="#" class="brand-logo">54l Aquarium</a>
+                    <a href="#" class="sidenav-trigger left" data-target="slide-out"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="../index.html">Aquarien</a></li>
+                        <li><a href="pflanzengallerie.html">Pflanzengallerie</a></li>
+                        <li><a href="bewertung.html">Bewerten!</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <ul class="sidenav" id="slide-out">
+            <li><a href="../index.html">Aquarien</a></li>
+            <li><a href="pflanzengallerie.html">Pflanzengallerie</a></li>
+            <li><a href="bewertung.html">Bewerten!</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+        <script src="../js/materialize.js"></script>   
+        <script>
+            const slide_menu = document.querySelectorAll(".sidenav");
+            M.Sidenav.init(slide_menu, {})
+        </script>
+    </body>
+</html> 
