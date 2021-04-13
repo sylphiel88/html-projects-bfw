@@ -8,9 +8,13 @@
   background-color: black;
 }
 .parallax-container {
-  @media (width >= 70em) height: 30em;
+  height: 25em;
 }
 
 p {
   font-size: 2em;
+}
+
+h1 {
+  text-shadow: 0.1em 0.1em 0.1em black;
 }
